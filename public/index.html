@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stretch Lab Solana Beach</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+</head>
+
+<body>
+  <!--Nav Bar-->
+  <nav class="white" role="navigation" style="height: 69px;">
+    <div class="nav-wrapper container" style="background-color: rgb(20, 163, 179); width: 100%; max-width: none;">
+    </div>
+  </nav>
+  <!--Background and Logo Columns-->
+  <div class="container" style="width: 100%; margin: 0; max-width: none;">
+    <div class="row" style="margin: 0;">
+      <div class="col s4 m4 l4" style="padding: 0;"><img src="Background1.JPG"
+          style="height: 450px; width: 100%; margin: 0">
+      </div>
+      <div class="col s4 m4 l4" style="padding: 0; height: 450px; position: relative;">
+        <h1 class="header center"><img src="Logo.JPG"
+            style="width: 200px; height: 250px; border: white solid 10px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        </h1>
+      </div>
+      <div class="col s4 m4 l4" style="padding: 0;"><img src="Background2.JPG" style="height: 450px; width: 100%;"></div>
+    </div>
+    <!--Footer-->
+    <footer class="page-footer" style="background-color: rgb(0, 38, 66); margin-top: -5px; height: auto;">
+      <h4 id="contact" class="center-align light" style="font-size: 24px;"><i
+          class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Solana Beach, CA</h4>
+      <br>
+      <!--Contact Form-->
+      <div class="container">
+        <div class="row">
+          <form action="/submit" method="post" class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="first_name" name="firstName" type="text">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" name="lastName" type="text">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="email" name="email" type="text">
+                <label for="email"><i class="material-icons">
+                    email
+                  </i>&nbsp;&nbsp;Email</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="phone" name="phone" type="text">
+                <label for="phone"><i class="material-icons">
+                    phone_enabled
+                  </i>&nbsp;&nbsp;Phone Number</label>
+              </div>
+            </div>
+            <button class="btn-large waves-effect waves-light col s12" id="submit" type="submit"
+              style="background-color: rgb(234, 69, 77);">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container center-align">
+          © 2020 <a class="brown-text text-lighten-3" href="">Stretch Lab</a>
+        </div>
+      </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/materialize.js"></script>
+
+</body>
+
+</html>
