@@ -1,5 +1,5 @@
 # Stretch-Lab-Solana-Beach
-## Simple contact page for Stretch Lab Solana Beach
+## Mobile Responsive Contact Page for Stretch Lab Solana Beach
 
 https://stretchlab-solana-beach.herokuapp.com/
 
