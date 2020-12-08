@@ -3,4 +3,6 @@
 
 https://stretchlab-solana-beach.herokuapp.com/
 
-https://github.com/znylen88/Stretch-Lab-Solana-Beach/blob/master/LandingPage.png
+![App Function](https://github.com/znylen88/Stretch-Lab-Solana-Beach/blob/master/LandingPage.png)
+
+
